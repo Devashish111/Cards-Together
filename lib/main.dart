@@ -9,13 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:wakelock/wakelock.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  Wakelock.enable();
-  FullScreen.enterFullScreen(FullScreenMode.EMERSIVE_STICKY);
-
-  runApp(const MyApp());
-}
+No more fine
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
